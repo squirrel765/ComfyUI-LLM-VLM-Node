@@ -14,7 +14,7 @@
 ## 📦 설치 방법
 ```
 cd ComfyUI/custom_nodes/
-git clone https://github.com/사용자명/저장소명.git
+https://github.com/squirrel765/ComfyUI-LLM-VLM-Node.git
 ```
 
 **ComfyUI에 내장된 Python 환경에 llama-cpp-python을 설치해야 합니다.**
