@@ -32,5 +32,6 @@ PublisherId = ""
 DisplayName = "ComfyUI-LLM-VLM-Node"
 Icon = ""
 includes = [] 
+publisher = "squirrel765"
 # "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
 
