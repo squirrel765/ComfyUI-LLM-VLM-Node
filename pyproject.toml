@@ -1,7 +1,7 @@
 [project]
 name = "llm-vlm-node"
 description = "A unified ComfyUI node for both LLM (text-only) and VLM (image-to-text) generation using GGUF models.."
-version = "1.0.0"
+version = "1.0.1"
 license = {file = "LICENSE"} 
 # classifiers = [
 #     # For OS-independent nodes (works on all operating systems)
