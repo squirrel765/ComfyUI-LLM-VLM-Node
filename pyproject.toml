@@ -28,7 +28,7 @@ Documentation = "https://github.com/squirrel765/ComfyUI-LLM-VLM-Node/wiki"
 "Bug Tracker" = "https://github.com/squirrel765/ComfyUI-LLM-VLM-Node/issues"
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "squirrel765"
 DisplayName = "ComfyUI-LLM-VLM-Node"
 Icon = ""
 includes = [] 
