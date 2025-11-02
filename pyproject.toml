@@ -30,8 +30,8 @@ Documentation = "https://github.com/squirrel765/ComfyUI-LLM-VLM-Node/wiki"
 [tool.comfy]
 PublisherId = "squirrel765"
 DisplayName = "ComfyUI-LLM-VLM-Node"
-Icon = ""
-includes = [] 
+Icon = "icon.png"
+includes = ["icon.png"] 
 publisher = "squirrel765"
 # "requires-comfyui" = ">=1.0.0"  # ComfyUI version compatibility
 
