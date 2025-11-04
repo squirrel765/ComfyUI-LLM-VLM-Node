@@ -2,7 +2,7 @@ import folder_paths
 import os
 from io import BytesIO
 from llama_cpp import Llama
-from llama_cpp.llama_chat_format import Llava16ChatHandler, Qwen25VLChatHandler
+from llama_cpp.llama_chat_format import Llava16ChatHandler, Qwen25VLChatHandler, Qwen3VLChatHandler, Gemma3ChatHandler
 import base64
 from torchvision.transforms import ToPILImage
 import gc
@@ -72,8 +72,11 @@ class UnifiedGeneratorLP:
                 raise ValueError("Multimodal mode requires an 'image' and a 'clip_name' input.")
 
             clip_path = folder_paths.get_full_path("LLavacheckpoints", clip_name)
-            
-            if "qwen2.5-vl" in str(clip_name).lower():
+            if "gemma3" in str(clip_name).lower():
+                self.clip = Gemma3ChatHandler(clip_model_path=clip_path, verbose=False)
+            if "qwen3-vl" in str(clip_name).lower():
+                self.clip = Qwen3VLChatHandler(clip_model_path=clip_path, verbose=False)
+            elif "qwen2.5-vl" in str(clip_name).lower():
                 self.clip = Qwen25VLChatHandler(clip_model_path=clip_path, verbose=False)
             else:
                 self.clip = Llava16ChatHandler(clip_model_path=clip_path, verbose=False)
