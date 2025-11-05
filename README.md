@@ -30,6 +30,7 @@ git clone https://github.com/squirrel765/ComfyUI-LLM-VLM-Node.git
 #### 멀티모달 모델
 [thesby/Qwen2.5-VL-7B-NSFW-Caption-V3](https://huggingface.co/thesby/Qwen2.5-VL-7B-NSFW-Caption-V3)
 - gguf모델과 함께 mmproj-model-f16.gguf 같이 이름에 mmproj 가 들어간 clip모델도 다운 받아주세요
+- 현재 QWEN 3.0 8B V4 gguf 모델은 작동 확인 중에 있습니다. 
 
 #### 텍스트 모델
 
