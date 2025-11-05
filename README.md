@@ -1,6 +1,4 @@
 # ComfyUI 통합 LLM/VLM 노드
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=squirrel765&layout=compact)  
-<img alt="Python" src ="https://img.shields.io/badge/Python-3776AB.svg?&style=for-the-badge&logo=Python&logoColor=white"/> 
 
 이 저장소는 텍스트 기반 LLM(거대 언어 모델)과 멀티모달 VLM(비전 언어 모델)을 하나의 노드로 통합한 ComfyUI 커스텀 노드를 포함합니다. 이 노드를 사용하면 ComfyUI 워크플로우 내에서 직접 텍스트 생성 및 이미지 설명(이미지-to-텍스트) 작업을 수행할 수 있습니다.
 이 프로젝트는 LevelPixel/ComfyUI-LevelPixel-Advanced의 코드 구조에서 영감을 받아 제작되었습니다. 원본 개발자에게 감사를 표합니다.
@@ -31,6 +29,7 @@ git clone https://github.com/squirrel765/ComfyUI-LLM-VLM-Node.git
 
 #### 멀티모달 모델
 [thesby/Qwen2.5-VL-7B-NSFW-Caption-V3](https://huggingface.co/thesby/Qwen2.5-VL-7B-NSFW-Caption-V3)
+- gguf모델과 함께 mmproj-model-f16.gguf 같이 이름에 mmproj 가 들어간 clip모델도 다운 받아주세요
 
 #### 텍스트 모델
 
