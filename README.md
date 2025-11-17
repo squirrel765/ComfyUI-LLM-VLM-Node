@@ -13,17 +13,16 @@
 6. **세부 설정**: Temperature, Top_p, Top_k, 페널티 등 다양한 생성 파라미터를 정밀하게 제어할 수 있습니다.
 
 ## 📦 설치 방법
-```
-cd ComfyUI/custom_nodes/
-git clone https://github.com/squirrel765/ComfyUI-LLM-VLM-Node.git
-```
-
-**ComfyUI에 내장된 Python 환경에 llama-cpp-python을 설치해야 합니다.**<br>
+**반드시 ComfyUI에 내장된 Python 환경에 llama-cpp-python을 설치해야 합니다.**<br>
 [llama-cpp-python.git](https://github.com/JamePeng/llama-cpp-python.git)
 
 ```
 # example
 pip install -U --force-reinstall https://github.com/JamePeng/llama-cpp-python/releases/download/v0.3.16-cu128-AVX2-win-20251112/llama_cpp_python-0.3.16-cp312-cp312-win_amd64.whl
+```
+```
+cd ComfyUI/custom_nodes/
+git clone https://github.com/squirrel765/ComfyUI-LLM-VLM-Node.git
 ```
 
 ## 🚀 사용 방법
