@@ -19,7 +19,7 @@ git clone https://github.com/squirrel765/ComfyUI-LLM-VLM-Node.git
 ```
 
 **ComfyUI에 내장된 Python 환경에 llama-cpp-python을 설치해야 합니다.**<br>
-[https://github.com/abetlen/llama-cpp-python]
+[llama-cpp-python github](https://github.com/abetlen/llama-cpp-python)
 
 
 ## 🚀 사용 방법
