@@ -22,7 +22,7 @@ git clone https://github.com/squirrel765/ComfyUI-LLM-VLM-Node.git
 [llama-cpp-python.git](https://github.com/JamePeng/llama-cpp-python.git)
 
 ```
-예시)
+# example
 pip install -U --force-reinstall https://github.com/JamePeng/llama-cpp-python/releases/download/v0.3.16-cu128-AVX2-win-20251112/llama_cpp_python-0.3.16-cp312-cp312-win_amd64.whl
 ```
 
