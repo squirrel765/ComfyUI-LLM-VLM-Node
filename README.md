@@ -64,6 +64,13 @@ ComfyUI 메뉴에서 Add Node > LLM/Generators > Unified LLM/VLM Generator를 �
 **gpu_layers**: VRAM에 오프로드할 레이어 수를 지정합니다. 사용자의 VRAM 크기에 맞게 조절하세요. (-1은 모든 레이어를 오프로드합니다.) <br>
 **unload**: True로 설정하면 생성 작업이 끝난 후 모델을 메모리에서 해제하여 시스템 리소스를 절약합니다. <br>
 
+**max_ctx (Maximum Context Size)** : LLM이 한 번에 기억하고 처리할 수 있는 최대 토큰 수(입력 + 출력 포함). <br>
+**gpu_layers** : 모델의 레이어 중 몇 개를 GPU에서 실행할지 지정. <br>
+**n_threads** : LLM 연산을 수행할 때 사용할 CPU 스레드 수. <br>
+**max_tokens** : 모델이 생성할 수 있는 최대 출력 토큰 수. <br>
+**temperature** : 출력의 무작위성(창의성) 을 조절하는 값 (0~2) <br>
+**top_p (Nucleus Sampling)** : 상위 확률의 토큰 누적 확률이 top_p가 될 때까지의 후보만 고려해 샘플링. <br>
+**top_k** : 매 스텝마다 확률이 높은 상위 k개의 토큰 중 하나를 선택. <br>
 
 ## 예시
 <img width="1324" height="730" alt="Image" src="https://github.com/user-attachments/assets/7444d711-ba08-483a-aaff-db5831f8f8f3" /> <br>
