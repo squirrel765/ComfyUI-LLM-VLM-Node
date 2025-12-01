@@ -12,6 +12,12 @@
 5. **메모리 관리**: 생성 후 VRAM 및 RAM을 확보할 수 있는 'Unload' 옵션이 포함되어 있습니다.
 6. **세부 설정**: Temperature, Top_p, Top_k, 페널티 등 다양한 생성 파라미터를 정밀하게 제어할 수 있습니다.
 
+## portable 버전 이용 시 (참고)
+```
+cd python embedded 폴더로 이동
+./python --version 
+```
+
 ## 📦 설치 방법
 **반드시 ComfyUI에 내장된 Python 환경에 llama-cpp-python을 설치해야 합니다.**<br>
 [llama-cpp-python.git](https://github.com/JamePeng/llama-cpp-python.git)
