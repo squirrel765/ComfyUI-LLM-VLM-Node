@@ -79,6 +79,6 @@ ComfyUI 메뉴에서 Add Node > LLM/Generators > Unified LLM/VLM Generator를 �
 **top_k** : 매 스텝마다 확률이 높은 상위 k개의 토큰 중 하나를 선택. <br>
 
 ## 예시
-<img width="1324" height="730" alt="Image" src="https://github.com/user-attachments/assets/7444d711-ba08-483a-aaff-db5831f8f8f3" /> <br>
-<img width="1354" height="767" alt="Image" src="https://github.com/user-attachments/assets/d8e34624-fa94-41c6-a61c-1e08a7b705bd" /> <br>
-<img width="1589" height="774" alt="Image" src="https://github.com/user-attachments/assets/a02300e4-941f-493d-890d-82d252e427a2" /> <br>
+![예시이미지](ex/ex1.png) <br>
+![예시이미지](ex/ex2.png) <br>
+![예시이미지](ex/ex3.png) <br>
